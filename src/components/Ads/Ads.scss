@@ -1,0 +1,24 @@
+@import '../../_Variables.scss';
+
+.flats {
+    display: grid;
+    gap: 2rem;
+    grid-template: auto / repeat(4, 1fr);
+    margin: 0 auto;
+    width: 80%;
+
+    &__card {
+        border-radius: 8px;
+        color: $secondary-color;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    &__title {
+        align-items: center;
+        background: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        min-height: 4rem;
+    }
+}
